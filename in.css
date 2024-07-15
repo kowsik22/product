@@ -1,0 +1,220 @@
+/*
+nav {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  justify-content: left;
+}
+*/
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+  padding-left: 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+}
+.btn-con {
+  display: flex;
+  align-items: center;
+  padding-right: 50px;
+}
+.btn {
+  border: 2px solid #828282;
+  padding: 5px 20px;
+  border-radius: 30px;
+  color: black;
+}
+nav {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0px 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.content {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 80.5px;
+  color: #00203f;
+  position: relative;
+  top: 50%;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center; /* Center the cards horizontally */
+  align-items: start; /* Align the cards vertically at the start */
+  grid-gap: 30px; /* Add space between the cards */
+  grid-column: 0px;
+  margin-top: 100px; /* Adjust the top margin as needed */
+}
+
+.card1,
+.card2,
+.card3,
+.card4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: auto;
+  height: auto;
+}
+.card1,
+.card3 {
+  position: relative;
+  left: 30%;
+}
+.card2,
+.card4 {
+  position: relative;
+  left: -28%;
+}
+.card3,
+.card4 {
+  margin-bottom: 40px;
+}
+.card1,
+.card2 {
+  margin-top: 20px;
+}
+.card {
+  background-color: #00e0ff3d;
+  height: auto;
+  border-radius: 8px;
+  border: 1px solid #00e0ff3d;
+}
+
+.card2 .card {
+  background-color: #ffc7005e;
+  border: 1px solid #ffc7005e;
+}
+
+.card h5 {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  line-height: 33.89px;
+  color: #00588a;
+  position: relative;
+  bottom: 15px;
+}
+
+.card-img-top {
+  width: 193px;
+  position: relative;
+  left: 18%;
+}
+
+.card-text {
+  font-size: 13px;
+  line-height: 19.5px;
+  font-weight: 400;
+  position: relative;
+  bottom: 15px;
+}
+
+.card a {
+  font-size: 13px;
+  background-color: #00588a;
+  color: white;
+  line-height: 15.98px;
+}
+
+.card2 .card img {
+  width: 150px;
+  position: relative;
+  left: 28%;
+  top: 10px;
+}
+
+.card2 h5 {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  line-height: 33.89px;
+  color: #00000099;
+  position: relative;
+  bottom: 15px;
+}
+
+.card2 .card a {
+  font-size: 13px;
+  background-color: #665e40;
+  color: white;
+  line-height: 15.98px;
+}
+
+.card3 .card img {
+  width: 150px;
+  position: relative;
+  left: 25%;
+}
+
+.card3 .card {
+  background-color: #ff7a0078;
+  border: 1px solid #ff7a0078;
+}
+
+.card3 .card a {
+  font-size: 13px;
+  background-color: #664d36;
+  color: white;
+  line-height: 15.98px;
+}
+
+.card4 .card img {
+  width: 150px;
+  position: relative;
+  left: 25%;
+  top: 10px;
+}
+
+.card4 .card {
+  background-color: #42ff005e;
+  border: 1px solid #42ff005e;
+}
+
+.card4 .card a {
+  font-size: 13px;
+  background-color: #4a6640;
+  color: white;
+  line-height: 15.98px;
+}
